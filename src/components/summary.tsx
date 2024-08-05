@@ -26,14 +26,16 @@ export const Summary: React.FC<InputProps> = ({ selectedMeals }) => {
       <p>
         <b>Meals footprint:</b>{' '}
       </p>
-      {selectedMeals &&
-        selectedMeals.map((meal) => {
-          return (
-            <p>
-              {meal.Meal} ({meal.Emissions} kg CO2e)
-            </p>
-          );
-        })}
+      <ul>
+        {selectedMeals &&
+          selectedMeals.map((meal) => {
+            return (
+              <div>
+                {meal.Meal} ({meal.Emissions} kg CO2e)
+              </div>
+            );
+          })}
+      </ul>
       {selectedMeals && (
         <p>
           <b>Daily footprint:</b> {getDailyEmissions()} kg CO2e

@@ -1,7 +1,7 @@
 .App {
   text-align: left;
 }
-h2 {
+h2{
   text-align: center;
 }
 .App-logo {
@@ -30,8 +30,7 @@ h2 {
   color: #61dafb;
 }
 
-.flex-container {
-  display: 'flex' !important;
+.flex-container{
   padding: 2em;
 }
 
@@ -44,6 +43,9 @@ h2 {
   }
 }
 
-li {
+ul{
+  padding-inline-start: 0;
+}
+li{
   list-style-type: none;
 }
