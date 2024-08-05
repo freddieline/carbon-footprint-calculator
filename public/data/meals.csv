@@ -1,0 +1,317 @@
+ID,Meal,Emissions
+1,Almonds,0.4
+2,Apple slices with cheese,1
+3,Apple slices with peanut butter,0.5
+4,Apple yogurt,0.7
+5,Avocado toast,1
+6,Bacon and eggs,2.8
+7,Bacon sandwich,3
+8,Baked beans,0.9
+9,Baked potato,0.5
+10,Bakewell tart,2.5
+11,Banana yogurt,0.7
+12,Bangers and mash,4
+13,Bean burrito,2
+14,Beef balti,4.5
+15,Beef bhuna,4.5
+16,Beef biryani,5
+17,Beef burger,7
+18,Beef curry,5
+19,Beef dhansak,4.5
+20,Beef dhansak,4.5
+21,Beef dupiaza,4.5
+22,Beef jalfrezi,5
+23,Beef kebabs,6
+24,Beef korma,4.5
+25,Beef madras,5
+26,Beef makhani,5
+27,Beef masala,4.5
+28,Beef pakoras,4
+29,Beef passanda,4.5
+30,Beef pathia,4.5
+31,Beef rogan josh,5
+32,Beef sagwala,4.5
+33,Beef samosas,4
+34,Beef stew,4.5
+35,Beef tikka masala,5
+36,Beef vindaloo,5.5
+37,Beef Wellington,12
+38,Bell pepper strips with hummus,1
+39,Bell pepper strips,0.3
+40,Black pudding,3
+41,Blackberries,0.5
+42,Blackberry yogurt,0.7
+43,BLT sandwich,3
+44,Blueberries,0.5
+45,Blueberry yogurt,0.7
+46,Brazil nuts,0.4
+47,Bread and butter pudding,2.5
+48,Bubble and squeak,1.5
+49,Butter chicken,4
+50,Caesar salad,2
+51,Caesar salad,2
+52,Caprese salad,1
+53,Carrot sticks with hummus,1
+54,Carrot sticks,0.2
+55,Cashews,0.4
+56,Cauliflower cheese,2
+57,Cauliflower rice,0.5
+58,Celery sticks with hummus,1
+59,Celery sticks,0.2
+60,Cereal with milk,0.7
+61,Cheese quesadilla,2
+62,Cheese slices,2
+63,Cheeseburger,7.5
+64,Cherry tomatoes,0.3
+65,Chia seeds,0.3
+66,Chicken and leek pie,3.5
+67,Chicken and rice,3
+68,Chicken balti,3.5
+69,Chicken bhuna,3.5
+70,Chicken biryani,4
+71,Chicken burger,3.5
+72,Chicken curry,4
+73,Chicken dhansak,3.5
+74,Chicken dhansak,3.5
+75,Chicken dupiaza,3.5
+76,Chicken jalfrezi,4
+77,Chicken jalfrezi,4
+78,Chicken kebabs,3.5
+79,Chicken korma,3.5
+80,Chicken korma,3.5
+81,Chicken madras,4
+82,Chicken madras,4
+83,Chicken makhani,4
+84,Chicken masala,3.5
+85,Chicken pakoras,3
+86,Chicken passanda,3.5
+87,Chicken pathia,3.5
+88,Chicken rogan josh,4
+89,Chicken sagwala,3.5
+90,Chicken salad,2
+91,Chicken salad,2
+92,Chicken samosas,3
+93,Chicken sandwich,2.5
+94,Chicken tikka masala,4
+95,Chicken tikka masala,4
+96,Chicken vindaloo,4.5
+97,Chicken vindaloo,4.5
+98,Chocolate yogurt,0.7
+99,Club sandwich,3.5
+100,Coleslaw,1
+101,Corn on the cob,0.5
+102,Cornish pasty,4.5
+103,Coronation chicken sandwich,3
+104,Cottage cheese,2.5
+105,Couscous salad,1.5
+106,Crackers with cheese,1
+107,Crackers,0.5
+108,Cucumber slices with hummus,1
+109,Cucumber slices,0.2
+110,Deviled eggs,1.8
+111,Edamame,0.5
+112,Egg mayonnaise sandwich,2.2
+113,Egg salad,2.2
+114,Eton mess,2
+115,Falafel,1.8
+116,Fish and chips,3.2
+117,Fish burger,3.2
+118,Flax seeds,0.3
+119,French fries,1.5
+120,Fruit and cheese platter,1
+121,Fruit and nut mix,0.7
+122,Fruit salad,0.3
+123,Fruit smoothie,0.5
+124,Fruit yogurt,0.7
+125,Full English breakfast,2.8
+126,Granola bar,0.4
+127,Granola,0.7
+128,Grape tomatoes,0.3
+129,Grapes,0.5
+130,Greek salad,1.5
+131,Greek salad,1.5
+132,Greek yogurt,0.7
+133,Green beans,0.3
+134,Grilled cheese sandwich,2.5
+135,Haggis,5
+136,Ham and cheese sandwich,2.8
+137,Ham sandwich,2.8
+138,Hard-boiled eggs,1.5
+139,Hazelnuts,0.4
+140,Hemp seeds,0.3
+141,Hummus and pita,1
+142,Jacket potato with beans,1
+143,Kale salad,1
+144,Lamb balti,5.5
+145,Lamb bhuna,5.5
+146,Lamb biryani,7
+147,Lamb curry,10.5
+148,Lamb dhansak,5.5
+149,Lamb dupiaza,5.5
+150,Lamb jalfrezi,6
+151,Lamb kebabs,7
+152,Lamb korma,5.5
+153,Lamb madras,6
+154,Lamb makhani,6
+155,Lamb masala,5.5
+156,Lamb pakoras,5
+157,Lamb passanda,5.5
+158,Lamb pathia,5.5
+159,Lamb rogan josh,7
+160,Lamb rogan josh,7
+161,Lamb sagwala,5.5
+162,Lamb samosas,5
+163,Lamb tikka masala,6
+164,Lamb vindaloo,6.5
+165,Lancashire hotpot,5
+166,Lemon yogurt,0.7
+167,Lentil soup,1.5
+168,Lime yogurt,0.7
+169,Macadamia nuts,0.4
+170,Macaroni and cheese,1.8
+171,Mango slices,0.7
+172,Mango yogurt,0.7
+173,Mashed potatoes,1
+174,Meal,Emissions (kg CO2e/meal)
+175,Melon slices,0.5
+176,Mince and tatties,4
+177,Minestrone soup,1.5
+178,Mixed berry yogurt,0.7
+179,Mixed greens,0.3
+180,Mozzarella sticks,2.5
+181,Muesli,0.7
+182,Nectarine slices,0.5
+183,Nectarine yogurt,0.7
+184,Nuts,0.4
+185,Oatmeal,0.5
+186,Onion bhaji,1.5
+187,Onion rings,2
+188,Orange segments,0.3
+189,Orange yogurt,0.7
+190,Pancakes,1.5
+191,Pasta salad,1.8
+192,Pasta with marinara,1.5
+193,Peach slices,0.5
+194,Peach yogurt,0.7
+195,Peanut butter sandwich,1.2
+196,Peanuts,0.4
+197,Pecans,0.4
+198,Pineapple chunks,0.7
+199,Pineapple yogurt,0.7
+200,Pistachios,0.4
+201,Pita chips with hummus,1
+202,Ploughman's lunch,3
+203,Ploughman's sandwich,3
+204,Plum slices,0.5
+205,Plum yogurt,0.7
+206,Popcorn,0.5
+207,Pork kebabs,5
+208,Pork pie,5
+209,Potato salad,1.5
+210,Prawn balti,4
+211,Prawn bhuna,4
+212,Prawn biryani,4
+213,Prawn cocktail,3
+214,Prawn curry,4
+215,Prawn dhansak,4
+216,Prawn dhansak,4
+217,Prawn dupiaza,4
+218,Prawn jalfrezi,4
+219,Prawn korma,4
+220,Prawn madras,4
+221,Prawn makhani,4.5
+222,Prawn masala,4
+223,Prawn pakoras,3.5
+224,Prawn passanda,4
+225,Prawn pathia,4
+226,Prawn rogan josh,4
+227,Prawn sagwala,4
+228,Prawn salad,3
+229,Prawn samosas,3.5
+230,Prawn tikka masala,4.5
+231,Prawn vindaloo,4.5
+232,Pretzels,0.5
+233,Pumpkin seeds,0.3
+234,Quinoa and vegetables,1.8
+235,Radishes,0.2
+236,Raspberries,0.5
+237,Raspberry yogurt,0.7
+238,Rhubarb crumble,2
+239,Rice and beans,1
+240,Rice cakes,0.3
+241,Rice salad,1.5
+242,Roast beef with Yorkshire pudding,7
+243,Roasted chickpeas,0.9
+244,Roasted vegetables,1.2
+245,Sausage roll,4
+246,Sauteed spinach,0.5
+247,Scones with clotted cream,3
+248,Scotch egg,3
+249,Scrambled eggs,2
+250,Sesame seeds,0.3
+251,Shepherd's pie,4.5
+252,Smoothie,0.5
+253,Snow peas,0.3
+254,Spinach salad,1
+255,Spotted dick,3
+256,Steak and kidney pie,6
+257,Steamed broccoli,0.3
+258,Sticky toffee pudding,3
+259,Strawberries,0.5
+260,Strawberry yogurt,0.7
+261,String cheese,2
+262,Stuffed peppers,1.8
+263,Sugar snap peas,0.3
+264,Sunflower seeds,0.3
+265,Sweet potato fries,0.7
+266,Tandoori chicken,4
+267,Toad in the hole,4
+268,Toast with jam,0.3
+269,Tofu stir-fry,1.2
+270,Tomato slices,0.2
+271,Tomato soup,1.2
+272,Trail mix,0.7
+273,Trifle,2.5
+274,Tropical fruit yogurt,0.7
+275,Tuna salad,3.5
+276,Tuna sandwich,3.5
+277,Vanilla yogurt,0.7
+278,Vegetable balti,2
+279,Vegetable bhuna,2
+280,Vegetable biryani,2
+281,Vegetable chili,1.8
+282,Vegetable curry,1.5
+283,Vegetable curry,1.5
+284,Vegetable dhansak,2
+285,Vegetable dhansak,2
+286,Vegetable dupiaza,2
+287,Vegetable jalfrezi,2
+288,Vegetable kebabs,1.5
+289,Vegetable korma,2
+290,Vegetable madras,2.5
+291,Vegetable makhani,2.5
+292,Vegetable masala,2
+293,Vegetable pakoras,1.5
+294,Vegetable passanda,2
+295,Vegetable pathia,2
+296,Vegetable rogan josh,2
+297,Vegetable sagwala,2
+298,Vegetable samosas,1.5
+299,Vegetable soup,1
+300,Vegetable stir-fry,1.2
+301,Vegetable sushi,1.2
+302,Vegetable tikka masala,2.5
+303,Vegetable vindaloo,2.5
+304,Veggie and cheese platter,1
+305,Veggie and nut mix,0.7
+306,Veggie burger,2
+307,Veggie burger,2
+308,Veggie pizza,2
+309,Veggie wrap,1.5
+310,Victoria sponge cake,2.5
+311,Waldorf salad,1.5
+312,Walnuts,0.4
+313,Watermelon slices,0.5
+314,Welsh rarebit,2
+315,Yogurt parfait,0.7
+316,Yogurt with honey,0.7
