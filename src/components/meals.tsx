@@ -98,7 +98,7 @@ export function Meals() {
             )}
           </ul>
         </div>
-        <div style={{}}>
+        <div>
           <Summary selectedMeals={selectedMeals}></Summary>
         </div>
       </div>
