@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Papa from 'papaparse';
 
-import type { Meal } from '../components/meals';
+import type { Meal } from '../interfaces/Meal';
 
 export const useGetMeals = () => {
   const [meals, setMeals] = useState<Meal[]>([]);

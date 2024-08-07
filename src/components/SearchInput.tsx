@@ -1,16 +1,13 @@
 import { useState, KeyboardEvent, ChangeEvent } from 'react';
-
+import './SearchInput.css';
 type onChangeCallback = (message: string) => void;
 type onKeyDown = (message: KeyboardEvent<HTMLInputElement>) => void;
 
 interface InputProps {
   onChangeCallback?: onChangeCallback;
-  onKeyDown: onKeyDown;
 }
-export const Input: React.FC<InputProps> = ({
-  onChangeCallback,
-  onKeyDown,
-}) => {
+
+export const SearchInput: React.FC<InputProps> = ({ onChangeCallback }) => {
   const [searchQuery, setSearchQuery] = useState<string>('');
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -21,17 +18,14 @@ export const Input: React.FC<InputProps> = ({
     onChangeCallback && onChangeCallback(inputValue);
   };
 
-  const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
-    onKeyDown(e);
-  };
-
   return (
-    <input
-      type="text"
-      placeholder="Search..."
-      value={searchQuery}
-      onChange={handleChange}
-      onKeyDown={handleKeyDown}
-    />
+    <div className="input-wrapper">
+      <input
+        type="text"
+        placeholder="Search..."
+        value={searchQuery}
+        onChange={handleChange}
+      />
+    </div>
   );
 };

@@ -18,7 +18,6 @@ ID,Meal,Emissions
 17,Beef burger,7
 18,Beef curry,5
 19,Beef dhansak,4.5
-20,Beef dhansak,4.5
 21,Beef dupiaza,4.5
 22,Beef jalfrezi,5
 23,Beef kebabs,6
@@ -48,7 +47,6 @@ ID,Meal,Emissions
 47,Bread and butter pudding,2.5
 48,Bubble and squeak,1.5
 49,Butter chicken,4
-50,Caesar salad,2
 51,Caesar salad,2
 52,Caprese salad,1
 53,Carrot sticks with hummus,1
@@ -72,15 +70,11 @@ ID,Meal,Emissions
 71,Chicken burger,3.5
 72,Chicken curry,4
 73,Chicken dhansak,3.5
-74,Chicken dhansak,3.5
 75,Chicken dupiaza,3.5
 76,Chicken jalfrezi,4
-77,Chicken jalfrezi,4
 78,Chicken kebabs,3.5
 79,Chicken korma,3.5
-80,Chicken korma,3.5
 81,Chicken madras,4
-82,Chicken madras,4
 83,Chicken makhani,4
 84,Chicken masala,3.5
 85,Chicken pakoras,3
@@ -89,12 +83,9 @@ ID,Meal,Emissions
 88,Chicken rogan josh,4
 89,Chicken sagwala,3.5
 90,Chicken salad,2
-91,Chicken salad,2
 92,Chicken samosas,3
 93,Chicken sandwich,2.5
 94,Chicken tikka masala,4
-95,Chicken tikka masala,4
-96,Chicken vindaloo,4.5
 97,Chicken vindaloo,4.5
 98,Chocolate yogurt,0.7
 99,Club sandwich,3.5
