@@ -26,11 +26,11 @@ export const Summary: React.FC<InputProps> = ({ selectedMeals }) => {
     <>
       {selectedMeals.length != 0 && (
         <>
-          <div style={{ display: 'flex' }}>
+          <div>
             <p>
               <b>Meals footprint:</b>{' '}
             </p>
-            <div style={{ marginLeft: '0.7rem' }}>
+            <div>
               {selectedMeals &&
                 selectedMeals.map((meal, index) => {
                   return (
@@ -47,14 +47,10 @@ export const Summary: React.FC<InputProps> = ({ selectedMeals }) => {
               <b>Your daily footprint:</b> {getDailyEmissions()} kg CO2e
             </p>
             <p>
-              <b>Your yearly footprint:</b> {getYearlyEmissions()} tons CO2e
-            </p>
-
-            <p>
-              <b>Average annual UK footprint:</b> 11.7 tons CO2e
+              <b>UK average daily footprint:</b> 6 tons CO2e
             </p>
             <p>
-              <b>2030 UK footprint target (annual pp)</b> 3-4 tons CO2e
+              <b>UK 2030 footprint target (pp):</b> 2.5 tons CO2e
             </p>
           </>
         </>
