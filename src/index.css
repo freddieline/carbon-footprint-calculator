@@ -16,6 +16,16 @@ code {
   margin: 0px;
   padding: 0px;
 }
- p{
+p {
   padding: 0.5rem 0;
- }
+}
+
+hr {
+  margin: 1rem 0;
+  background-color: #aaa;
+}
+
+h1 {
+  padding: 1rem 0;
+  text-align: center;
+}

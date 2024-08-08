@@ -33,26 +33,25 @@ function App() {
     setFilteredMeals(filteredItems);
   };
 
-  function onSelectMeal(meal: Meal){
-    setSelectedMeals(prevItems => [...prevItems, meal])
+  function onSelectMeal(meal: Meal) {
+    setSelectedMeals((prevItems) => [...prevItems, meal]);
     setFilteredMeals([]);
   }
 
   return (
     <div className="App">
-      <h2>Carbon footprint calculator:</h2>
-      <div style={{ display: 'flex', padding: '1em' }}>
-        <div style={{ width: '50%' }}>
-          <p>
-            <b>Add meals eaten today:</b>{' '}
-          </p>
-          <SearchInput onChangeCallback={filterItems}></SearchInput>
-          {error && <p>{error}</p>}
-          <SearchResults filteredMeals={filteredMeals} onSelectMeal={onSelectMeal}></SearchResults>
-        </div>
-        <div>
-          <Summary selectedMeals={selectedMeals}></Summary>
-        </div>
+      <h1>Carbon footprint calculator</h1>
+      <div style={{ padding: '1em', maxWidth: '600px', margin: '0 auto' }}>
+        <p>
+          <b>Add meals eaten today:</b>{' '}
+        </p>
+        <SearchInput onChangeCallback={filterItems}></SearchInput>
+        {error && <p>{error}</p>}
+        <SearchResults
+          filteredMeals={filteredMeals}
+          onSelectMeal={onSelectMeal}
+        ></SearchResults>
+        <Summary selectedMeals={selectedMeals}></Summary>
       </div>
     </div>
   );
