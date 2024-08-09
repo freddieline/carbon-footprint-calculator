@@ -47,7 +47,7 @@ export const Summary: React.FC<InputProps> = ({ selectedMeals }) => {
               <b>Your daily footprint:</b> {getDailyEmissions()} kg CO2e
             </p>
             <p>
-              <b>UK average daily footprint:</b> 6 tons CO2e
+              <b>UK average daily footprint:</b> 18 tons CO2e
             </p>
             <p>
               <b>UK 2030 footprint target (pp):</b> 2.5 tons CO2e

@@ -1,332 +1,332 @@
 ID,Meal,Emissions
-1,"Beef Steak (sirloin, 200g)",5.40 kg CO2e per serving
-2,Lamb Chop (150g),5.88 kg CO2e per serving
-3,Chicken Breast (200g),1.38 kg CO2e per serving
-4,Pork Chop (200g),2.42 kg CO2e per serving
-5,Salmon Fillet (150g),1.78 kg CO2e per serving
-6,Tofu (100g),0.20 kg CO2e per serving
-7,Lentil Soup (300g),0.30 kg CO2e per serving
-8,"Rice (cooked, 150g)",0.60 kg CO2e per serving
-9,"Potatoes (boiled, 180g)",0.09 kg CO2e per serving
-10,"Bread (slice, 40g)",0.02 kg CO2e per serving
-11,"Apple (1 medium, 180g)",0.05 kg CO2e per serving
-12,"Banana (1 medium, 120g)",0.08 kg CO2e per serving
-13,"Tomato (1 medium, 100g)",0.21 kg CO2e per serving
-14,"Milk (cow, whole, 200ml)",0.64 kg CO2e per serving
-15,"Cheese (cheddar, 30g)",0.27 kg CO2e per serving
-16,"Egg (1 large, 70g)",0.34 kg CO2e per serving
-17,Butter (10g),0.12 kg CO2e per serving
-18,Almond Milk (200ml),0.14 kg CO2e per serving
-19,"Coffee (black, 240ml)",0.05 kg CO2e per serving
-20,"Tea (black, 240ml)",0.01 kg CO2e per serving
-21,Dark Chocolate (30g),0.57 kg CO2e per serving
-22,"Beer (bottle, 330ml)",0.46 kg CO2e per serving
-23,"Wine (red, 175ml glass)",0.37 kg CO2e per serving
-24,"Pizza (cheese, medium, 1 slice)",0.40 kg CO2e per serving
-25,Spaghetti Bolognese (300g),1.08 kg CO2e per serving
-26,Chicken Curry (300g),0.75 kg CO2e per serving
-27,"Vegan Burger (1 patty, 113g)",0.28 kg CO2e per serving
-28,"Beef Burger (1 patty, 113g)",1.13 kg CO2e per serving
-29,"Salad (mixed greens, 100g)",0.02 kg CO2e per serving
-30,Orange Juice (200ml),0.34 kg CO2e per serving
-31,"Yoghurt (plain, 150g)",0.33 kg CO2e per serving
-32,"Avocado (1 medium, 150g)",0.38 kg CO2e per serving
-33,Peanut Butter (20g),0.04 kg CO2e per serving
-34,"Oats (cooked, 40g dry)",0.06 kg CO2e per serving
-35,Sugar (10g),0.01 kg CO2e per serving
-36,"Beer (draft, 568ml pint)",0.17 kg CO2e per serving
-37,"Ice Cream (vanilla, 100g)",0.32 kg CO2e per serving
-38,"Pasta (cooked, 180g)",0.32 kg CO2e per serving
-39,"Cereal (cornflakes, 40g)",0.04 kg CO2e per serving
-40,"Sausages (pork, 1 large, 80g)",0.66 kg CO2e per serving
-41,Fish and Chips (400g),1.00 kg CO2e per serving
-42,Roast Chicken Dinner (400g),2.50 kg CO2e per serving
-43,Baked Beans (200g),0.20 kg CO2e per serving
-44,Lasagna (300g),1.80 kg CO2e per serving
-45,Shepherd's Pie (300g),1.60 kg CO2e per serving
-46,Macaroni Cheese (300g),1.10 kg CO2e per serving
-47,Full English Breakfast,2.90 kg CO2e per serving
-48,"Toast (2 slices, 80g)",0.04 kg CO2e per serving
-49,"Pancakes (2 pancakes, 140g)",0.34 kg CO2e per serving
-50,Beef Stir-Fry (300g),2.40 kg CO2e per serving
-51,Chicken Salad (250g),0.80 kg CO2e per serving
-52,Vegetable Stir-Fry (300g),0.40 kg CO2e per serving
-53,Cottage Pie (300g),1.20 kg CO2e per serving
-54,Mushroom Risotto (300g),0.80 kg CO2e per serving
-55,"Quiche (1 slice, 150g)",1.10 kg CO2e per serving
-56,"Ham Sandwich (2 slices, 150g)",0.50 kg CO2e per serving
-57,Prawn Cocktail (150g),0.30 kg CO2e per serving
-58,"Tuna Sandwich (2 slices, 150g)",0.70 kg CO2e per serving
-59,"Veggie Burger (1 patty, 113g)",0.30 kg CO2e per serving
-60,Falafel Wrap (250g),0.60 kg CO2e per serving
-61,Cauliflower Cheese (250g),0.80 kg CO2e per serving
-62,Veggie Curry (300g),0.60 kg CO2e per serving
-63,Mushroom Soup (300g),0.20 kg CO2e per serving
-64,Tomato Soup (300g),0.15 kg CO2e per serving
-65,"Pork Pie (1 pie, 150g)",1.20 kg CO2e per serving
-66,Beef Stew (300g),1.80 kg CO2e per serving
-67,"Chicken Pie (1 slice, 150g)",0.90 kg CO2e per serving
-68,Fish Pie (300g),1.10 kg CO2e per serving
-69,Mashed Potatoes (200g),0.18 kg CO2e per serving
-70,Coleslaw (100g),0.10 kg CO2e per serving
-71,Beef Wellington (300g),4.50 kg CO2e per serving
-72,Roast Lamb (200g),5.88 kg CO2e per serving
-73,"Yorkshire Pudding (2, 80g)",0.20 kg CO2e per serving
-74,"Stuffed Peppers (1, 200g)",0.40 kg CO2e per serving
-75,Ratatouille (300g),0.30 kg CO2e per serving
-76,Spinach Salad (100g),0.04 kg CO2e per serving
-77,Caesar Salad (250g),0.70 kg CO2e per serving
-78,Chicken Tikka Masala (300g),1.20 kg CO2e per serving
-79,"Beef Tacos (2, 200g)",2.20 kg CO2e per serving
-80,"Veggie Tacos (2, 200g)",0.40 kg CO2e per serving
-81,Cheese Omelette (150g),0.60 kg CO2e per serving
-82,Greek Salad (250g),0.50 kg CO2e per serving
-83,Roast Beef (200g),5.40 kg CO2e per serving
-84,Roast Vegetables (200g),0.10 kg CO2e per serving
-85,"Pork Sausages (2, 160g)",1.32 kg CO2e per serving
-86,"Veggie Sausages (2, 160g)",0.60 kg CO2e per serving
-87,Scrambled Eggs (150g),0.72 kg CO2e per serving
-88,Smoked Salmon (100g),1.19 kg CO2e per serving
-89,"Bagel (1, 100g)",0.12 kg CO2e per serving
-90,"Pastry (1, 100g)",0.40 kg CO2e per serving
-91,Fried Rice (300g),0.60 kg CO2e per serving
-92,Pad Thai (300g),1.20 kg CO2e per serving
-93,"Spring Rolls (3, 150g)",0.30 kg CO2e per serving
-94,"Vegetable Samosas (2, 120g)",0.20 kg CO2e per serving
-95,"Onion Bhaji (3, 150g)",0.20 kg CO2e per serving
-96,Sausage Roll (100g),0.80 kg CO2e per serving
-97,Cornish Pasty (200g),1.60 kg CO2e per serving
-98,"Chicken Wings (5, 150g)",0.72 kg CO2e per serving
-99,Barbecue Ribs (300g),2.70 kg CO2e per serving
-100,"Chicken Nuggets (6, 150g)",0.45 kg CO2e per serving
-101,French Fries (200g),0.40 kg CO2e per serving
-102,Nachos (200g),1.10 kg CO2e per serving
-103,"Hot Dog (1, 150g)",0.80 kg CO2e per serving
-104,Beef Burrito (300g),2.10 kg CO2e per serving
-105,Veggie Burrito (300g),0.70 kg CO2e per serving
-106,Chicken Quesadilla (200g),1.10 kg CO2e per serving
-107,Beef Chili (300g),2.40 kg CO2e per serving
-108,Veggie Chili (300g),0.60 kg CO2e per serving
-109,Meatballs (200g),1.60 kg CO2e per serving
-110,Chicken Fajitas (300g),1.00 kg CO2e per serving
-111,Veggie Fajitas (300g),0.50 kg CO2e per serving
-112,Chicken Caesar Wrap (200g),0.80 kg CO2e per serving
-113,Beef Sandwich (200g),1.10 kg CO2e per serving
-114,Tuna Salad (250g),0.75 kg CO2e per serving
-115,Egg Salad Sandwich (200g),0.60 kg CO2e per serving
-116,BLT Sandwich (200g),1.10 kg CO2e per serving
-117,Tuna Melt (200g),0.90 kg CO2e per serving
-118,Chicken Alfredo (300g),1.80 kg CO2e per serving
-119,Meat Lasagna (300g),2.10 kg CO2e per serving
-120,Veggie Lasagna (300g),0.90 kg CO2e per serving
-121,Grilled Cheese (200g),0.70 kg CO2e per serving
-122,"Margherita Pizza (1 slice, 150g)",0.40 kg CO2e per serving
-123,"Pepperoni Pizza (1 slice, 150g)",0.60 kg CO2e per serving
-124,"Supreme Pizza (1 slice, 150g)",0.80 kg CO2e per serving
-125,"Veggie Pizza (1 slice, 150g)",0.50 kg CO2e per serving
-126,"Fish Fingers (4, 120g)",0.45 kg CO2e per serving
-127,Salmon Steak (150g),1.78 kg CO2e per serving
-128,Prawn Stir-Fry (300g),0.90 kg CO2e per serving
-129,Shrimp Cocktail (150g),0.45 kg CO2e per serving
-130,Tuna Steak (150g),1.35 kg CO2e per serving
-131,"Crab Cakes (2, 150g)",0.60 kg CO2e per serving
-132,Lobster Tail (200g),2.80 kg CO2e per serving
-133,"Scallops (6, 150g)",0.90 kg CO2e per serving
-134,Mussels (200g),0.50 kg CO2e per serving
-135,Clam Chowder (300g),0.90 kg CO2e per serving
-136,"Fish Tacos (2, 200g)",0.70 kg CO2e per serving
-137,"Veggie Sushi Roll (8 pieces, 150g)",0.30 kg CO2e per serving
-138,"Salmon Sushi Roll (8 pieces, 150g)",0.60 kg CO2e per serving
-139,"Tuna Sushi Roll (8 pieces, 150g)",0.70 kg CO2e per serving
-140,Chicken Teriyaki (300g),1.20 kg CO2e per serving
-141,Beef Teriyaki (300g),2.10 kg CO2e per serving
-142,Veggie Teriyaki (300g),0.50 kg CO2e per serving
-143,Chicken Korma (300g),1.00 kg CO2e per serving
-144,Veggie Korma (300g),0.60 kg CO2e per serving
-145,Chicken Vindaloo (300g),1.20 kg CO2e per serving
-146,Beef Vindaloo (300g),2.20 kg CO2e per serving
-147,Veggie Vindaloo (300g),0.60 kg CO2e per serving
-148,Chicken Biryani (300g),1.20 kg CO2e per serving
-149,Veggie Biryani (300g),0.60 kg CO2e per serving
-150,Beef Stroganoff (300g),2.10 kg CO2e per serving
-151,Veggie Stroganoff (300g),0.50 kg CO2e per serving
-152,Chicken and Rice (300g),0.90 kg CO2e per serving
-153,Beef and Rice (300g),2.00 kg CO2e per serving
-154,Veggie and Rice (300g),0.40 kg CO2e per serving
-155,Chicken Fried Rice (300g),1.10 kg CO2e per serving
-156,Veggie Fried Rice (300g),0.50 kg CO2e per serving
-157,Chicken Souvlaki (200g),0.80 kg CO2e per serving
-158,Beef Souvlaki (200g),1.80 kg CO2e per serving
-159,Veggie Souvlaki (200g),0.40 kg CO2e per serving
-160,Chicken Parmigiana (300g),1.60 kg CO2e per serving
-161,Veggie Parmigiana (300g),0.80 kg CO2e per serving
-162,"Beef Tacos (2, 200g)",1.80 kg CO2e per serving
-163,"Veggie Tacos (2, 200g)",0.40 kg CO2e per serving
-164,Beef Nachos (300g),1.50 kg CO2e per serving
-165,Veggie Nachos (300g),0.70 kg CO2e per serving
-166,Chicken Enchiladas (300g),1.20 kg CO2e per serving
-167,Veggie Enchiladas (300g),0.60 kg CO2e per serving
-168,Beef Fajitas (300g),1.80 kg CO2e per serving
-169,Veggie Fajitas (300g),0.50 kg CO2e per serving
-170,Chicken Quesadilla (200g),1.00 kg CO2e per serving
-171,Veggie Quesadilla (200g),0.50 kg CO2e per serving
-172,"Chicken Wings (6, 150g)",0.60 kg CO2e per serving
-173,Beef Ribs (300g),2.00 kg CO2e per serving
-174,Veggie Burger (150g),0.30 kg CO2e per serving
-175,Chicken Burger (150g),0.70 kg CO2e per serving
-176,Beef Burger (150g),1.10 kg CO2e per serving
-177,Veggie Hot Dog (150g),0.30 kg CO2e per serving
-178,Chicken Hot Dog (150g),0.60 kg CO2e per serving
-179,Beef Hot Dog (150g),1.00 kg CO2e per serving
-180,Chicken Alfredo Pasta (300g),1.50 kg CO2e per serving
-181,Beef Stroganoff Pasta (300g),1.80 kg CO2e per serving
-182,Veggie Stroganoff Pasta (300g),0.50 kg CO2e per serving
-183,Chicken Carbonara (300g),1.40 kg CO2e per serving
-184,Veggie Carbonara (300g),0.70 kg CO2e per serving
-185,Beef Ramen (300g),1.60 kg CO2e per serving
-186,Veggie Ramen (300g),0.50 kg CO2e per serving
-187,Chicken Ramen (300g),1.10 kg CO2e per serving
-188,Seafood Ramen (300g),1.20 kg CO2e per serving
-189,Chicken Pesto Pasta (300g),1.20 kg CO2e per serving
-190,Veggie Pesto Pasta (300g),0.60 kg CO2e per serving
-191,Chicken Pad Thai (300g),1.00 kg CO2e per serving
-192,Veggie Pad Thai (300g),0.50 kg CO2e per serving
-193,Chicken Chow Mein (300g),1.20 kg CO2e per serving
-194,Veggie Chow Mein (300g),0.60 kg CO2e per serving
-195,Chicken Fried Noodles (300g),1.10 kg CO2e per serving
-196,Veggie Fried Noodles (300g),0.50 kg CO2e per serving
-197,Chicken Lo Mein (300g),1.10 kg CO2e per serving
-198,Veggie Lo Mein (300g),0.50 kg CO2e per serving
-199,"Chocolate Cake (1 slice, 100g)",0.90 kg CO2e per serving
-200,"Cheesecake (1 slice, 100g)",0.75 kg CO2e per serving
-201,"Apple Pie (1 slice, 100g)",0.50 kg CO2e per serving
-202,"Victoria Sponge (1 slice, 100g)",0.60 kg CO2e per serving
-203,"Brownie (1 piece, 60g)",0.60 kg CO2e per serving
-204,"Muffin (1 medium, 75g)",0.50 kg CO2e per serving
-205,"Croissant (1, 60g)",0.30 kg CO2e per serving
-206,"Danish Pastry (1, 80g)",0.50 kg CO2e per serving
-207,"Scone with Cream and Jam (1, 80g)",0.70 kg CO2e per serving
-208,Fruit Salad (200g),0.10 kg CO2e per serving
-209,Granola (50g),0.30 kg CO2e per serving
-210,"Porridge (cooked, 40g dry oats)",0.10 kg CO2e per serving
-211,"Instant Noodles (1 pack, 85g)",0.30 kg CO2e per serving
-212,"Couscous (cooked, 150g)",0.12 kg CO2e per serving
-213,"Quinoa (cooked, 150g)",0.25 kg CO2e per serving
-214,Mixed Nuts (30g),0.18 kg CO2e per serving
-215,Hummus (50g),0.10 kg CO2e per serving
-216,Guacamole (50g),0.15 kg CO2e per serving
-217,Salsa (50g),0.05 kg CO2e per serving
-218,Jalapeños (50g),0.02 kg CO2e per serving
-219,Olives (50g),0.12 kg CO2e per serving
-220,Pickles (50g),0.03 kg CO2e per serving
-221,Popcorn (30g),0.02 kg CO2e per serving
-222,Pretzels (30g),0.04 kg CO2e per serving
-223,Potato Chips (30g),0.05 kg CO2e per serving
-224,Chocolate Bar (50g),0.50 kg CO2e per serving
-225,"Candy (gummy, 30g)",0.07 kg CO2e per serving
-226,Honey (10g),0.05 kg CO2e per serving
-227,Maple Syrup (20g),0.08 kg CO2e per serving
-228,Jam (20g),0.04 kg CO2e per serving
-229,Jelly (50g),0.03 kg CO2e per serving
-230,Custard (150g),0.20 kg CO2e per serving
-231,Rice Pudding (150g),0.25 kg CO2e per serving
-232,Bread Pudding (100g),0.30 kg CO2e per serving
-233,Trifle (150g),0.35 kg CO2e per serving
-234,Eton Mess (150g),0.50 kg CO2e per serving
-235,Pavlova (100g),0.40 kg CO2e per serving
-236,"Meringue (1, 20g)",0.06 kg CO2e per serving
-237,"Shortbread (2 pieces, 40g)",0.20 kg CO2e per serving
-238,"Gingerbread (1 piece, 60g)",0.25 kg CO2e per serving
-239,"Flapjack (1 piece, 60g)",0.40 kg CO2e per serving
-240,"Rice Cake (1, 10g)",0.03 kg CO2e per serving
-241,"Corn Tortilla (1, 50g)",0.05 kg CO2e per serving
-242,Soft Drink (330ml),0.20 kg CO2e per serving
-243,Fruit Smoothie (250ml),0.40 kg CO2e per serving
-244,Milkshake (250ml),0.80 kg CO2e per serving
-245,Lemonade (330ml),0.15 kg CO2e per serving
-246,Sparkling Water (330ml),0.03 kg CO2e per serving
-247,Still Water (500ml),0.05 kg CO2e per serving
-248,"Orange (1 medium, 130g)",0.04 kg CO2e per serving
-249,"Grapefruit (1 medium, 230g)",0.07 kg CO2e per serving
-250,"Pineapple (1 slice, 80g)",0.05 kg CO2e per serving
-251,"Mango (1 medium, 200g)",0.12 kg CO2e per serving
-252,"Watermelon (1 slice, 150g)",0.03 kg CO2e per serving
-253,Strawberries (100g),0.10 kg CO2e per serving
-254,Raspberries (100g),0.15 kg CO2e per serving
-255,Blueberries (100g),0.13 kg CO2e per serving
-256,Blackberries (100g),0.12 kg CO2e per serving
-257,"Peaches (1 medium, 150g)",0.06 kg CO2e per serving
-258,"Plums (2 medium, 120g)",0.07 kg CO2e per serving
-259,Grapes (100g),0.10 kg CO2e per serving
-260,Cherries (100g),0.10 kg CO2e per serving
-261,"Pear (1 medium, 160g)",0.05 kg CO2e per serving
-262,"Nectarine (1 medium, 150g)",0.06 kg CO2e per serving
-263,"Kiwi (1 medium, 70g)",0.04 kg CO2e per serving
-264,Pine Nuts (30g),0.30 kg CO2e per serving
-265,Almonds (30g),0.23 kg CO2e per serving
-266,Cashews (30g),0.27 kg CO2e per serving
-267,Walnuts (30g),0.25 kg CO2e per serving
-268,Hazelnuts (30g),0.24 kg CO2e per serving
-269,Pistachios (30g),0.21 kg CO2e per serving
-270,Brazil Nuts (30g),0.29 kg CO2e per serving
-271,Macadamia Nuts (30g),0.32 kg CO2e per serving
-272,Cashew Butter (20g),0.08 kg CO2e per serving
-273,Almond Butter (20g),0.07 kg CO2e per serving
-274,Coconut (100g),0.08 kg CO2e per serving
-275,Canned Tuna (100g),0.32 kg CO2e per serving
-276,Sardines (100g),0.25 kg CO2e per serving
-277,Mackerel (100g),0.30 kg CO2e per serving
-278,Anchovies (50g),0.18 kg CO2e per serving
-279,Cod (100g),0.28 kg CO2e per serving
-280,Haddock (100g),0.29 kg CO2e per serving
-281,Halibut (100g),0.35 kg CO2e per serving
-282,Sea Bass (100g),0.30 kg CO2e per serving
-283,Swordfish (100g),0.40 kg CO2e per serving
-284,Seaweed (10g),0.05 kg CO2e per serving
-285,Tofu Stir-Fry (300g),0.40 kg CO2e per serving
-286,"Lentil Burger (1 patty, 113g)",0.30 kg CO2e per serving
-287,Tilapia (150g),0.35 kg CO2e per serving
-288,Trout (150g),0.38 kg CO2e per serving
-289,Hake (150g),0.32 kg CO2e per serving
-290,Pollock (150g),0.30 kg CO2e per serving
-291,Sole (150g),0.28 kg CO2e per serving
-292,Flounder (150g),0.27 kg CO2e per serving
-293,Monkfish (150g),0.40 kg CO2e per serving
-294,Grouper (150g),0.45 kg CO2e per serving
-295,Red Snapper (150g),0.42 kg CO2e per serving
-296,Barramundi (150g),0.39 kg CO2e per serving
-297,Catfish (150g),0.34 kg CO2e per serving
-298,Haddock (150g),0.29 kg CO2e per serving
-299,Skate (150g),0.33 kg CO2e per serving
-300,Kingfish (150g),0.41 kg CO2e per serving
-301,Marlin (150g),0.44 kg CO2e per serving
-302,Wahoo (150g),0.43 kg CO2e per serving
-303,Snapper (150g),0.37 kg CO2e per serving
-304,Tilefish (150g),0.35 kg CO2e per serving
-305,Turbot (150g),0.48 kg CO2e per serving
-306,Yellowtail (150g),0.40 kg CO2e per serving
-307,Amberjack (150g),0.41 kg CO2e per serving
-308,Mahi Mahi (150g),0.38 kg CO2e per serving
-309,Smoked Mackerel (100g),0.55 kg CO2e per serving
-310,Smoked Salmon (100g),1.19 kg CO2e per serving
-311,Sardines (150g),0.33 kg CO2e per serving
-312,Anchovies (50g),0.18 kg CO2e per serving
-313,Sea Bream (150g),0.36 kg CO2e per serving
-314,Swordfish (150g),0.45 kg CO2e per serving
-315,Bluefin Tuna (150g),1.35 kg CO2e per serving
-316,Yellowfin Tuna (150g),0.70 kg CO2e per serving
-317,Bonito (150g),0.65 kg CO2e per serving
-318,Whitefish (150g),0.28 kg CO2e per serving
-319,Lobster (150g),2.80 kg CO2e per serving
-320,King Crab (150g),1.50 kg CO2e per serving
-321,Snow Crab (150g),0.60 kg CO2e per serving
-322,Mussels (150g),0.30 kg CO2e per serving
-323,Clams (150g),0.35 kg CO2e per serving
-324,Cockles (150g),0.28 kg CO2e per serving
-325,Scallops (150g),0.90 kg CO2e per serving
-326,Prawns (150g),0.60 kg CO2e per serving
-327,Shrimp (150g),0.45 kg CO2e per serving
-328,Langoustine (150g),0.70 kg CO2e per serving
-329,Octopus (150g),0.55 kg CO2e per serving
-330,Squid (150g),0.50 kg CO2e per serving
-331,Calamari (150g),0.52 kg CO2e per serving
+1,"Beef Steak (sirloin, 200g)",5.4
+2,Lamb Chop (150g),5.88
+3,Chicken Breast (200g),1.38
+4,Pork Chop (200g),2.42
+5,Salmon Fillet (150g),1.78
+6,Tofu (100g),0.2
+7,Lentil Soup (300g),0.3
+8,"Rice (cooked, 150g)",0.6
+9,"Potatoes (boiled, 180g)",0.09
+10,"Bread (slice, 40g)",0.02
+11,"Apple (1 medium, 180g)",0.05
+12,"Banana (1 medium, 120g)",0.08
+13,"Tomato (1 medium, 100g)",0.21
+14,"Milk (cow, whole, 200ml)",0.64
+15,"Cheese (cheddar, 30g)",0.27
+16,"Egg (1 large, 70g)",0.34
+17,Butter (10g),0.12
+18,Almond Milk (200ml),0.14
+19,"Coffee (black, 240ml)",0.05
+20,"Tea (black, 240ml)",0.01
+21,Dark Chocolate (30g),0.57
+22,"Beer (bottle, 330ml)",0.46
+23,"Wine (red, 175ml glass)",0.37
+24,"Pizza (cheese, medium, 1 slice)",0.4
+25,Spaghetti Bolognese (300g),1.08
+26,Chicken Curry (300g),0.75
+27,"Vegan Burger (1 patty, 113g)",0.28
+28,"Beef Burger (1 patty, 113g)",1.13
+29,"Salad (mixed greens, 100g)",0.02
+30,Orange Juice (200ml),0.34
+31,"Yoghurt (plain, 150g)",0.33
+32,"Avocado (1 medium, 150g)",0.38
+33,Peanut Butter (20g),0.04
+34,"Oats (cooked, 40g dry)",0.06
+35,Sugar (10g),0.01
+36,"Beer (draft, 568ml pint)",0.17
+37,"Ice Cream (vanilla, 100g)",0.32
+38,"Pasta (cooked, 180g)",0.32
+39,"Cereal (cornflakes, 40g)",0.04
+40,"Sausages (pork, 1 large, 80g)",0.66
+41,Fish and Chips (400g),1
+42,Roast Chicken Dinner (400g),2.5
+43,Baked Beans (200g),0.2
+44,Lasagna (300g),1.8
+45,Shepherd's Pie (300g),1.6
+46,Macaroni Cheese (300g),1.1
+47,Full English Breakfast,2.9
+48,"Toast (2 slices, 80g)",0.04
+49,"Pancakes (2 pancakes, 140g)",0.34
+50,Beef Stir-Fry (300g),2.4
+51,Chicken Salad (250g),0.8
+52,Vegetable Stir-Fry (300g),0.4
+53,Cottage Pie (300g),1.2
+54,Mushroom Risotto (300g),0.8
+55,"Quiche (1 slice, 150g)",1.1
+56,"Ham Sandwich (2 slices, 150g)",0.5
+57,Prawn Cocktail (150g),0.3
+58,"Tuna Sandwich (2 slices, 150g)",0.7
+59,"Veggie Burger (1 patty, 113g)",0.3
+60,Falafel Wrap (250g),0.6
+61,Cauliflower Cheese (250g),0.8
+62,Veggie Curry (300g),0.6
+63,Mushroom Soup (300g),0.2
+64,Tomato Soup (300g),0.15
+65,"Pork Pie (1 pie, 150g)",1.2
+66,Beef Stew (300g),1.8
+67,"Chicken Pie (1 slice, 150g)",0.9
+68,Fish Pie (300g),1.1
+69,Mashed Potatoes (200g),0.18
+70,Coleslaw (100g),0.1
+71,Beef Wellington (300g),4.5
+72,Roast Lamb (200g),5.88
+73,"Yorkshire Pudding (2, 80g)",0.2
+74,"Stuffed Peppers (1, 200g)",0.4
+75,Ratatouille (300g),0.3
+76,Spinach Salad (100g),0.04
+77,Caesar Salad (250g),0.7
+78,Chicken Tikka Masala (300g),1.2
+79,"Beef Tacos (2, 200g)",2.2
+80,"Veggie Tacos (2, 200g)",0.4
+81,Cheese Omelette (150g),0.6
+82,Greek Salad (250g),0.5
+83,Roast Beef (200g),5.4
+84,Roast Vegetables (200g),0.1
+85,"Pork Sausages (2, 160g)",1.32
+86,"Veggie Sausages (2, 160g)",0.6
+87,Scrambled Eggs (150g),0.72
+88,Smoked Salmon (100g),1.19
+89,"Bagel (1, 100g)",0.12
+90,"Pastry (1, 100g)",0.4
+91,Fried Rice (300g),0.6
+92,Pad Thai (300g),1.2
+93,"Spring Rolls (3, 150g)",0.3
+94,"Vegetable Samosas (2, 120g)",0.2
+95,"Onion Bhaji (3, 150g)",0.2
+96,Sausage Roll (100g),0.8
+97,Cornish Pasty (200g),1.6
+98,"Chicken Wings (5, 150g)",0.72
+99,Barbecue Ribs (300g),2.7
+100,"Chicken Nuggets (6, 150g)",0.45
+101,French Fries (200g),0.4
+102,Nachos (200g),1.1
+103,"Hot Dog (1, 150g)",0.8
+104,Beef Burrito (300g),2.1
+105,Veggie Burrito (300g),0.7
+106,Chicken Quesadilla (200g),1.1
+107,Beef Chili (300g),2.4
+108,Veggie Chili (300g),0.6
+109,Meatballs (200g),1.6
+110,Chicken Fajitas (300g),1
+111,Veggie Fajitas (300g),0.5
+112,Chicken Caesar Wrap (200g),0.8
+113,Beef Sandwich (200g),1.1
+114,Tuna Salad (250g),0.75
+115,Egg Salad Sandwich (200g),0.6
+116,BLT Sandwich (200g),1.1
+117,Tuna Melt (200g),0.9
+118,Chicken Alfredo (300g),1.8
+119,Meat Lasagna (300g),2.1
+120,Veggie Lasagna (300g),0.9
+121,Grilled Cheese (200g),0.7
+122,"Margherita Pizza (1 slice, 150g)",0.4
+123,"Pepperoni Pizza (1 slice, 150g)",0.6
+124,"Supreme Pizza (1 slice, 150g)",0.8
+125,"Veggie Pizza (1 slice, 150g)",0.5
+126,"Fish Fingers (4, 120g)",0.45
+127,Salmon Steak (150g),1.78
+128,Prawn Stir-Fry (300g),0.9
+129,Shrimp Cocktail (150g),0.45
+130,Tuna Steak (150g),1.35
+131,"Crab Cakes (2, 150g)",0.6
+132,Lobster Tail (200g),2.8
+133,"Scallops (6, 150g)",0.9
+134,Mussels (200g),0.5
+135,Clam Chowder (300g),0.9
+136,"Fish Tacos (2, 200g)",0.7
+137,"Veggie Sushi Roll (8 pieces, 150g)",0.3
+138,"Salmon Sushi Roll (8 pieces, 150g)",0.6
+139,"Tuna Sushi Roll (8 pieces, 150g)",0.7
+140,Chicken Teriyaki (300g),1.2
+141,Beef Teriyaki (300g),2.1
+142,Veggie Teriyaki (300g),0.5
+143,Chicken Korma (300g),1
+144,Veggie Korma (300g),0.6
+145,Chicken Vindaloo (300g),1.2
+146,Beef Vindaloo (300g),2.2
+147,Veggie Vindaloo (300g),0.6
+148,Chicken Biryani (300g),1.2
+149,Veggie Biryani (300g),0.6
+150,Beef Stroganoff (300g),2.1
+151,Veggie Stroganoff (300g),0.5
+152,Chicken and Rice (300g),0.9
+153,Beef and Rice (300g),2
+154,Veggie and Rice (300g),0.4
+155,Chicken Fried Rice (300g),1.1
+156,Veggie Fried Rice (300g),0.5
+157,Chicken Souvlaki (200g),0.8
+158,Beef Souvlaki (200g),1.8
+159,Veggie Souvlaki (200g),0.4
+160,Chicken Parmigiana (300g),1.6
+161,Veggie Parmigiana (300g),0.8
+162,"Beef Tacos (2, 200g)",1.8
+163,"Veggie Tacos (2, 200g)",0.4
+164,Beef Nachos (300g),1.5
+165,Veggie Nachos (300g),0.7
+166,Chicken Enchiladas (300g),1.2
+167,Veggie Enchiladas (300g),0.6
+168,Beef Fajitas (300g),1.8
+169,Veggie Fajitas (300g),0.5
+170,Chicken Quesadilla (200g),1
+171,Veggie Quesadilla (200g),0.5
+172,"Chicken Wings (6, 150g)",0.6
+173,Beef Ribs (300g),2
+174,Veggie Burger (150g),0.3
+175,Chicken Burger (150g),0.7
+176,Beef Burger (150g),1.1
+177,Veggie Hot Dog (150g),0.3
+178,Chicken Hot Dog (150g),0.6
+179,Beef Hot Dog (150g),1
+180,Chicken Alfredo Pasta (300g),1.5
+181,Beef Stroganoff Pasta (300g),1.8
+182,Veggie Stroganoff Pasta (300g),0.5
+183,Chicken Carbonara (300g),1.4
+184,Veggie Carbonara (300g),0.7
+185,Beef Ramen (300g),1.6
+186,Veggie Ramen (300g),0.5
+187,Chicken Ramen (300g),1.1
+188,Seafood Ramen (300g),1.2
+189,Chicken Pesto Pasta (300g),1.2
+190,Veggie Pesto Pasta (300g),0.6
+191,Chicken Pad Thai (300g),1
+192,Veggie Pad Thai (300g),0.5
+193,Chicken Chow Mein (300g),1.2
+194,Veggie Chow Mein (300g),0.6
+195,Chicken Fried Noodles (300g),1.1
+196,Veggie Fried Noodles (300g),0.5
+197,Chicken Lo Mein (300g),1.1
+198,Veggie Lo Mein (300g),0.5
+199,"Chocolate Cake (1 slice, 100g)",0.9
+200,"Cheesecake (1 slice, 100g)",0.75
+201,"Apple Pie (1 slice, 100g)",0.5
+202,"Victoria Sponge (1 slice, 100g)",0.6
+203,"Brownie (1 piece, 60g)",0.6
+204,"Muffin (1 medium, 75g)",0.5
+205,"Croissant (1, 60g)",0.3
+206,"Danish Pastry (1, 80g)",0.5
+207,"Scone with Cream and Jam (1, 80g)",0.7
+208,Fruit Salad (200g),0.1
+209,Granola (50g),0.3
+210,"Porridge (cooked, 40g dry oats)",0.1
+211,"Instant Noodles (1 pack, 85g)",0.3
+212,"Couscous (cooked, 150g)",0.12
+213,"Quinoa (cooked, 150g)",0.25
+214,Mixed Nuts (30g),0.18
+215,Hummus (50g),0.1
+216,Guacamole (50g),0.15
+217,Salsa (50g),0.05
+218,Jalapeños (50g),0.02
+219,Olives (50g),0.12
+220,Pickles (50g),0.03
+221,Popcorn (30g),0.02
+222,Pretzels (30g),0.04
+223,Potato Chips (30g),0.05
+224,Chocolate Bar (50g),0.5
+225,"Candy (gummy, 30g)",0.07
+226,Honey (10g),0.05
+227,Maple Syrup (20g),0.08
+228,Jam (20g),0.04
+229,Jelly (50g),0.03
+230,Custard (150g),0.2
+231,Rice Pudding (150g),0.25
+232,Bread Pudding (100g),0.3
+233,Trifle (150g),0.35
+234,Eton Mess (150g),0.5
+235,Pavlova (100g),0.4
+236,"Meringue (1, 20g)",0.06
+237,"Shortbread (2 pieces, 40g)",0.2
+238,"Gingerbread (1 piece, 60g)",0.25
+239,"Flapjack (1 piece, 60g)",0.4
+240,"Rice Cake (1, 10g)",0.03
+241,"Corn Tortilla (1, 50g)",0.05
+242,Soft Drink (330ml),0.2
+243,Fruit Smoothie (250ml),0.4
+244,Milkshake (250ml),0.8
+245,Lemonade (330ml),0.15
+246,Sparkling Water (330ml),0.03
+247,Still Water (500ml),0.05
+248,"Orange (1 medium, 130g)",0.04
+249,"Grapefruit (1 medium, 230g)",0.07
+250,"Pineapple (1 slice, 80g)",0.05
+251,"Mango (1 medium, 200g)",0.12
+252,"Watermelon (1 slice, 150g)",0.03
+253,Strawberries (100g),0.1
+254,Raspberries (100g),0.15
+255,Blueberries (100g),0.13
+256,Blackberries (100g),0.12
+257,"Peaches (1 medium, 150g)",0.06
+258,"Plums (2 medium, 120g)",0.07
+259,Grapes (100g),0.1
+260,Cherries (100g),0.1
+261,"Pear (1 medium, 160g)",0.05
+262,"Nectarine (1 medium, 150g)",0.06
+263,"Kiwi (1 medium, 70g)",0.04
+264,Pine Nuts (30g),0.3
+265,Almonds (30g),0.23
+266,Cashews (30g),0.27
+267,Walnuts (30g),0.25
+268,Hazelnuts (30g),0.24
+269,Pistachios (30g),0.21
+270,Brazil Nuts (30g),0.29
+271,Macadamia Nuts (30g),0.32
+272,Cashew Butter (20g),0.08
+273,Almond Butter (20g),0.07
+274,Coconut (100g),0.08
+275,Canned Tuna (100g),0.32
+276,Sardines (100g),0.25
+277,Mackerel (100g),0.3
+278,Anchovies (50g),0.18
+279,Cod (100g),0.28
+280,Haddock (100g),0.29
+281,Halibut (100g),0.35
+282,Sea Bass (100g),0.3
+283,Swordfish (100g),0.4
+284,Seaweed (10g),0.05
+285,Tofu Stir-Fry (300g),0.4
+286,"Lentil Burger (1 patty, 113g)",0.3
+287,Tilapia (150g),0.35
+288,Trout (150g),0.38
+289,Hake (150g),0.32
+290,Pollock (150g),0.3
+291,Sole (150g),0.28
+292,Flounder (150g),0.27
+293,Monkfish (150g),0.4
+294,Grouper (150g),0.45
+295,Red Snapper (150g),0.42
+296,Barramundi (150g),0.39
+297,Catfish (150g),0.34
+298,Haddock (150g),0.29
+299,Skate (150g),0.33
+300,Kingfish (150g),0.41
+301,Marlin (150g),0.44
+302,Wahoo (150g),0.43
+303,Snapper (150g),0.37
+304,Tilefish (150g),0.35
+305,Turbot (150g),0.48
+306,Yellowtail (150g),0.4
+307,Amberjack (150g),0.41
+308,Mahi Mahi (150g),0.38
+309,Smoked Mackerel (100g),0.55
+310,Smoked Salmon (100g),1.19
+311,Sardines (150g),0.33
+312,Anchovies (50g),0.18
+313,Sea Bream (150g),0.36
+314,Swordfish (150g),0.45
+315,Bluefin Tuna (150g),1.35
+316,Yellowfin Tuna (150g),0.7
+317,Bonito (150g),0.65
+318,Whitefish (150g),0.28
+319,Lobster (150g),2.8
+320,King Crab (150g),1.5
+321,Snow Crab (150g),0.6
+322,Mussels (150g),0.3
+323,Clams (150g),0.35
+324,Cockles (150g),0.28
+325,Scallops (150g),0.9
+326,Prawns (150g),0.6
+327,Shrimp (150g),0.45
+328,Langoustine (150g),0.7
+329,Octopus (150g),0.55
+330,Squid (150g),0.5
+331,Calamari (150g),0.52
