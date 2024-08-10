@@ -47,14 +47,14 @@ export const Summary: React.FC<InputProps> = ({ selectedMeals }) => {
               <b>Your daily footprint:</b> {getDailyEmissions()} kg CO2e
             </p>
             <p>
-              <b>UK average daily footprint:</b> *14 kg CO2e
+              <b>UK average daily footprint (pp):</b> *29 kg CO2e
               </p>
               <p>
-                <b>UK 2030 daily footprint target (pp):</b> **9 tons CO2e
+                <b>UK 2030 daily footprint target (pp):</b> **15 tons CO2e
               </p>
-              <p>
-              * based on an estimated <a target="_blank" href="https://www.worldometers.info/co2-emissions/uk-co2-emissions/">5.00 tons CO2e pp per year in 2022</a> 
-              <br/>** based on a <a target="_blank" href="https://www.theccc.org.uk/publication/progress-in-reducing-emissions-2024-report-to-parliament/">68% target reduction of 1990s levels (10.13 tons CO2e)</a>
+              <p style={{fontSize:'12px'}}>
+              * based on a <a target="_blank" href="https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/measuringukgreenhousegasemissions">Consumption-Based GHG Emissions of 705Mt CO2e in 2021 which calculates as 10.52 tons CO2e per capita per year </a> 
+              <br/>** based on a calculated <a target="_blank" href="https://www.theccc.org.uk/publication/progress-in-reducing-emissions-2024-report-to-parliament/">68% target reduction from 1990s levels (16.75 tons CO2e) of 5.36 tons per capita per year </a>
             </p>
           </>
         </>
