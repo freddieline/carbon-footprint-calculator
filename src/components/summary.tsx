@@ -53,8 +53,8 @@ export const Summary: React.FC<InputProps> = ({ selectedMeals }) => {
                 <b>UK 2030 daily footprint target (pp):</b> **9 tons CO2e
               </p>
               <p>
-              * based on an estimated <a target="_blank" href="https://www.worldometers.info/co2-emissions/uk-co2-emissions/">5 tons CO2e pp per year</a> 
-              <br/>** based on a <a target="_blank" href="https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?locations=GB&most_recent_year_desc=false">68% target reduction of 1990s levels (10 tons CO2e)</a>
+              * based on an estimated <a target="_blank" href="https://www.worldometers.info/co2-emissions/uk-co2-emissions/">5.00 tons CO2e pp per year in 2022</a> 
+              <br/>** based on a <a target="_blank" href="https://www.theccc.org.uk/publication/progress-in-reducing-emissions-2024-report-to-parliament/">68% target reduction of 1990s levels (10.13 tons CO2e)</a>
             </p>
           </>
         </>
