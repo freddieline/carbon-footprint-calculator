@@ -40,10 +40,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Carbon footprint calculator</h1>
+      <h1>Personal carbon footprint calculator</h1>
       <div style={{ padding: '1em', maxWidth: '600px', margin: '0 auto' }}>
         <p>
-          <b>Add meals eaten today:</b>{' '}
+          <b>Add meals eaten on an average day:</b>{' '}
         </p>
         <SearchInput onChangeCallback={filterItems}></SearchInput>
         {error && <p>{error}</p>}
