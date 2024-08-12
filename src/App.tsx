@@ -64,7 +64,7 @@ function App() {
       if (deleteItem.ID == meal.ID && meal.Quantity && meal.Quantity >= 2) {
         meal.Quantity -= 1;
         acc.push(meal);
-      } else if (meal.ID != meal.ID) {
+      } else if (meal.ID != deleteItem.ID) {
         acc.push(meal);
       }
       return acc;
