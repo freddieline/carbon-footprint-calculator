@@ -19,7 +19,6 @@ type InputProps = {
 function App() {
   const [filteredMeals, setFilteredMeals] = useState<Meal[]>([]);
   const [selectedMeals, setSelectedMeals] = useState<Meal[]>([]);
-  const [focusedIndex, setFocusedIndex] = useState<number | null>(null);
 
   const { meals, error } = useGetMeals();
 
@@ -34,12 +33,43 @@ function App() {
   };
 
   function onSelectMeal(meal: Meal) {
-    setSelectedMeals((prevItems) => [...prevItems, meal]);
+    const duplicateMeal = getDuplicateMeal(meal);
+    if (duplicateMeal) {
+      incrementQuantity(meal);
+    } else {
+      setSelectedMeals((prevItems) => [...prevItems, meal]);
+    }
+
     setFilteredMeals([]);
   }
 
-  function deleteItem(item: Meal) {
-    const newList = selectedMeals.filter((meal) => item.ID != meal.ID);
+  function incrementQuantity(meal: Meal) {
+    const amendMeals = selectedMeals.map((item) => {
+      if (item.ID == meal.ID && item.Quantity) {
+        item.Quantity += 1;
+      } else if (item.ID == meal.ID) {
+        item.Quantity = 2;
+      }
+      return item;
+    });
+    setSelectedMeals(amendMeals);
+  }
+
+  function getDuplicateMeal(meal: Meal) {
+    return selectedMeals.filter((item) => item.ID == meal.ID).length > 0;
+  }
+
+  function deleteItem(deleteItem: Meal) {
+    const newList: Meal[] = selectedMeals.reduce((acc: Meal[], meal: Meal) => {
+      if (deleteItem.ID == meal.ID && meal.Quantity && meal.Quantity >= 2) {
+        meal.Quantity -= 1;
+        acc.push(meal);
+      } else if (meal.ID != meal.ID) {
+        acc.push(meal);
+      }
+      return acc;
+    }, []);
+
     setSelectedMeals(newList);
   }
 
@@ -50,7 +80,7 @@ function App() {
       </h1>
       <div style={{ padding: '1em', maxWidth: '600px', margin: '0 auto' }}>
         <p>
-          <b>Add meals you eat on an average day:</b>{' '}
+          <b>What do you eat on an average day?</b>{' '}
         </p>
         <SearchInput onChangeCallback={filterItems}></SearchInput>
         {error && <p>{error}</p>}
@@ -61,6 +91,7 @@ function App() {
         <Summary
           selectedMeals={selectedMeals}
           onDeleteItem={deleteItem}
+          incrementQuantity={incrementQuantity}
         ></Summary>
       </div>
     </div>

@@ -4,22 +4,32 @@ import './Summary.css';
 type InputProps = {
   selectedMeals: Meal[];
   onDeleteItem: (meal: Meal) => void;
+  incrementQuantity: (meal: Meal) => void;
 };
 
 export const Summary: React.FC<InputProps> = ({
   selectedMeals,
   onDeleteItem,
+  incrementQuantity,
 }) => {
   const ukNumberFormatter = new Intl.NumberFormat('en-GB');
   function getDailyEmissions() {
     const reduce = selectedMeals.reduce((accumul, meal) => {
-      return Number(accumul) + Number(meal.Emissions);
+      if (meal.Quantity) {
+        return Number(accumul) + Number(meal.Emissions) * Number(meal.Quantity);
+      } else {
+        return Number(accumul) + Number(meal.Emissions);
+      }
     }, 0);
 
     return ukNumberFormatter.format(reduce);
   }
 
-  function handleOnClick(meal: Meal) {
+  function handleOnAdd(meal: Meal) {
+    incrementQuantity(meal);
+  }
+
+  function handleOnDelete(meal: Meal) {
     onDeleteItem(meal);
   }
 
@@ -36,26 +46,58 @@ export const Summary: React.FC<InputProps> = ({
                 selectedMeals.map((meal, index) => {
                   return (
                     <div className="summary-item" key={meal.ID}>
-                      {meal.Meal} ({meal.Emissions} kg CO2e)
-                      <button
-                        className="btn btn-sm btn-circle btn-outline"
-                        onClick={() => handleOnClick(meal)}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-4 w-4"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
+                      <div>
+                        {meal.Quantity && meal.Quantity + ' x '} {meal.Meal}
+                      </div>
+                      <div>
+                        {meal.Quantity != undefined
+                          ? Math.round(meal.Emissions * meal.Quantity * 100) /
+                            100
+                          : meal.Emissions}{' '}
+                        kg CO2e{' '}
+                      </div>
+                      <div>
+                        <button
+                          className="btn btn-sm btn-circle btn-outline"
+                          style={{ marginRight: '12px' }}
+                          onClick={() => handleOnAdd(meal)}
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M6 18L18 6M6 6l12 12"
-                          />
-                        </svg>
-                      </button>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            className="h-4 w-4"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              d="M12 4.5v15m7.5-7.5h-15"
+                            />
+                          </svg>
+                        </button>
+                        <button
+                          className="btn btn-sm btn-circle btn-outline"
+                          onClick={() => handleOnDelete(meal)}
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-4 w-4"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M5 12h14"
+                            />
+                          </svg>
+                        </button>
+                      </div>
                     </div>
                   );
                 })}
