@@ -5,11 +5,14 @@
   border: none;
   border-radius: 10px;
   padding: 0 15px;
-  box-shadow: 0px 0px 8px #ddd;
   background-color: white;
   display: flex;
   align-items: center;
-  max-width: 400px;
+  max-width: 300px;
+  border: currentColor 1px solid;
+}
+.input-wrapper:focus {
+  border: #ddd 1px solid;
 }
 
 input {

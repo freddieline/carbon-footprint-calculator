@@ -1,0 +1,9 @@
+.summary-item {
+  background-color: #f3f2f2;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-top: 6px;
+  padding: 8px;
+  line-height: 30px;
+}

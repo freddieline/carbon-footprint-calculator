@@ -38,12 +38,19 @@ function App() {
     setFilteredMeals([]);
   }
 
+  function deleteItem(item: Meal) {
+    const newList = selectedMeals.filter((meal) => item.ID != meal.ID);
+    setSelectedMeals(newList);
+  }
+
   return (
     <div className="App">
-      <h1>Personal carbon footprint calculator</h1>
+      <h1 className="text-3xl font-bold text-gray-800 mb-3">
+        Personal carbon footprint calculator
+      </h1>
       <div style={{ padding: '1em', maxWidth: '600px', margin: '0 auto' }}>
         <p>
-          <b>Add meals eaten on an average day:</b>{' '}
+          <b>Add meals you eat on an average day:</b>{' '}
         </p>
         <SearchInput onChangeCallback={filterItems}></SearchInput>
         {error && <p>{error}</p>}
@@ -51,7 +58,10 @@ function App() {
           filteredMeals={filteredMeals}
           onSelectMeal={onSelectMeal}
         ></SearchResults>
-        <Summary selectedMeals={selectedMeals}></Summary>
+        <Summary
+          selectedMeals={selectedMeals}
+          onDeleteItem={deleteItem}
+        ></Summary>
       </div>
     </div>
   );
