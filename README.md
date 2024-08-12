@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Vercel deployment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://carbon-footprint-calculator-six.vercel.app/
 
 ## Available Scripts
 
