@@ -1,36 +1,23 @@
 import type { Meal } from '../interfaces/Meal';
-import './Summary.css';
+import './SearchInput';
 
 type InputProps = {
   selectedMeals: Meal[];
-  onDeleteItem: (meal: Meal) => void;
-  incrementQuantity: (meal: Meal) => void;
+  deleteMeal: (meal: Meal) => void;
+  incrementMealQuantity: (meal: Meal) => void;
 };
 
-export const Summary: React.FC<InputProps> = ({
+export const SelectedMeals: React.FC<InputProps> = ({
   selectedMeals,
-  onDeleteItem,
-  incrementQuantity,
+  deleteMeal,
+  incrementMealQuantity,
 }) => {
-  const ukNumberFormatter = new Intl.NumberFormat('en-GB');
-  function getDailyEmissions() {
-    const reduce = selectedMeals.reduce((accumul, meal) => {
-      if (meal.Quantity) {
-        return Number(accumul) + Number(meal.Emissions) * Number(meal.Quantity);
-      } else {
-        return Number(accumul) + Number(meal.Emissions);
-      }
-    }, 0);
-
-    return ukNumberFormatter.format(reduce);
-  }
-
   function handleOnAdd(meal: Meal) {
-    incrementQuantity(meal);
+    incrementMealQuantity(meal);
   }
 
   function handleOnDelete(meal: Meal) {
-    onDeleteItem(meal);
+    deleteMeal(meal);
   }
 
   return (
@@ -43,9 +30,9 @@ export const Summary: React.FC<InputProps> = ({
             </p>
             <div>
               {selectedMeals &&
-                selectedMeals.map((meal, index) => {
+                selectedMeals.map((meal: Meal) => {
                   return (
-                    <div className="summary-item" key={meal.ID}>
+                    <div className="search-result" key={meal.ID}>
                       <div>
                         {meal.Quantity && meal.Quantity + ' x '} {meal.Meal}
                       </div>
@@ -102,39 +89,6 @@ export const Summary: React.FC<InputProps> = ({
                   );
                 })}
             </div>
-          </div>
-          <hr />
-          <div>
-            <p>
-              <b>Your daily footprint:</b> {getDailyEmissions()} kg CO2e
-            </p>
-            <p>
-              <b>UK average daily footprint (pp):</b> *29 kg CO2e
-            </p>
-            <p>
-              <b>UK 2030 daily footprint target (pp):</b> **15 tons CO2e
-            </p>
-            <div></div>
-            <p style={{ fontSize: '12px' }}>
-              * based on a{' '}
-              <a
-                target="_blank"
-                href="https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/measuringukgreenhousegasemissions"
-              >
-                Consumption-Based GHG Emissions of 705Mt CO2e in 2021 which
-                calculates as 10.52 tons CO2e per capita per year{' '}
-              </a>
-            </p>
-            <p style={{ fontSize: '12px' }}>
-              ** based on a calculated{' '}
-              <a
-                target="_blank"
-                href="https://www.theccc.org.uk/publication/progress-in-reducing-emissions-2024-report-to-parliament/"
-              >
-                68% target reduction from 1990s levels (16.75 to 5.36 tons CO2e
-                per capita per year){' '}
-              </a>
-            </p>
           </div>
         </>
       )}

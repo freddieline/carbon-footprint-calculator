@@ -1,13 +1,16 @@
 import type { Meal } from '../interfaces/Meal';
 import './SearchResults.css';
+import './SearchResult.css';
 
 interface InputProps {
   filteredMeals: Meal[];
-  onSelectMeal: (meal: Meal) => void;
+  addMeal: (meal: Meal) => void;
+  setFilteredMeals: any;
 }
 export const SearchResults: React.FC<InputProps> = ({
   filteredMeals,
-  onSelectMeal,
+  setFilteredMeals,
+  addMeal,
 }) => {
   return (
     <div className="results-list">
@@ -19,13 +22,16 @@ export const SearchResults: React.FC<InputProps> = ({
 
           return (
             <div
-              className="search-result"
+              className="list-item"
               key={index}
               style={{
                 cursor: 'pointer',
                 padding: '10px',
               }}
-              onClick={() => onSelectMeal(row)}
+              onClick={() => {
+                addMeal(row);
+                setFilteredMeals([]);
+              }}
             >
               {displayValue}
             </div>

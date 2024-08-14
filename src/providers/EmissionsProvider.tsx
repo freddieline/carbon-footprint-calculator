@@ -4,8 +4,11 @@ import type { Meal } from '../interfaces/Meal';
 type EmissionsContextType = {
   selectedMeals: Meal[];
   setSelectedMeals: React.Dispatch<React.SetStateAction<Meal[]>>;
-  selectedTransport: Meal[];
-  setSelectedTransport: React.Dispatch<React.SetStateAction<Meal[]>>;
+  // selectedTransport: Meal[];
+  // setSelectedTransport: React.Dispatch<React.SetStateAction<Meal[]>>;
+  addMeal: (meal: Meal) => void;
+  incrementMealQuantity: (meal: Meal) => void;
+  deleteMeal: (meal: Meal) => void;
 };
 
 const EmissionsContext = createContext<EmissionsContextType | undefined>(
@@ -21,13 +24,67 @@ export const EmissionsProvider = ({
   const [selectedMeals, setSelectedMeals] = useState<Meal[]>([]);
   const [selectedTransport, setSelectedTransport] = useState<Meal[]>([]);
 
+  function addMeal(meal: Meal) {
+    if (
+      selectedMeals &&
+      selectedMeals.filter((item) => item.ID == meal.ID).length > 0
+    ) {
+      incrementQuantity(meal);
+    } else {
+      setSelectedMeals((prevItems) => [...prevItems, meal]);
+    }
+  }
+
+  function incrementQuantity(meal: Meal) {
+    if (selectedMeals) {
+      const amendMeals = selectedMeals.map((item) => {
+        if (item.ID == meal.ID && item.Quantity) {
+          item.Quantity += 1;
+        } else if (item.ID == meal.ID) {
+          item.Quantity = 2;
+        }
+        return item;
+      });
+      setSelectedMeals(amendMeals);
+    }
+  }
+
+  function incrementMealQuantity(meal: Meal) {
+    if (selectedMeals) {
+      const amendMeals = selectedMeals.map((item) => {
+        if (item.ID == meal.ID && item.Quantity) {
+          item.Quantity += 1;
+        } else if (item.ID == meal.ID) {
+          item.Quantity = 2;
+        }
+        return item;
+      });
+      setSelectedMeals(amendMeals);
+    }
+  }
+
+  function deleteMeal(deleteItem: Meal) {
+    const newList: Meal[] = selectedMeals.reduce((acc: Meal[], meal: Meal) => {
+      if (deleteItem.ID == meal.ID && meal.Quantity && meal.Quantity >= 2) {
+        meal.Quantity -= 1;
+        acc.push(meal);
+      } else if (meal.ID != deleteItem.ID) {
+        acc.push(meal);
+      }
+      return acc;
+    }, []);
+
+    setSelectedMeals(newList);
+  }
+
   return (
     <EmissionsContext.Provider
       value={{
-        selectedTransport,
-        setSelectedTransport,
         selectedMeals,
         setSelectedMeals,
+        addMeal,
+        deleteMeal,
+        incrementMealQuantity,
       }}
     >
       {children}

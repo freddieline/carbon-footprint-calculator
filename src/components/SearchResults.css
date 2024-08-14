@@ -10,10 +10,10 @@
   position: absolute;
 }
 
-.search-result {
+.list-item {
   padding: 10px 20px;
 }
 
-.search-result:hover {
+.list-item:hover {
   background-color: #efefef;
 }
