@@ -4,16 +4,16 @@ import './SearchInput';
 type InputProps = {
   selectedMeals: Meal[];
   deleteMeal: (meal: Meal) => void;
-  incrementMealQuantity: (meal: Meal) => void;
+  addMeal: (meal: Meal) => void;
 };
 
 export const SelectedMeals: React.FC<InputProps> = ({
   selectedMeals,
   deleteMeal,
-  incrementMealQuantity,
+  addMeal,
 }) => {
   function handleOnAdd(meal: Meal) {
-    incrementMealQuantity(meal);
+    addMeal(meal);
   }
 
   function handleOnDelete(meal: Meal) {

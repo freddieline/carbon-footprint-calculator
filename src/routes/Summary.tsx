@@ -1,10 +1,10 @@
 import type { Meal } from '../interfaces/Meal';
 import { useContext } from 'react';
-import { useEmissionsProvider } from '../providers/EmissionsProvider';
+import { useMealsProvider } from '../providers/MealsProvider';
 import { Link } from 'react-router-dom';
 
 export const Summary = () => {
-  const { selectedMeals } = useEmissionsProvider();
+  const { selectedMeals } = useMealsProvider();
 
   const ukNumberFormatter = new Intl.NumberFormat('en-GB');
   function getDailyEmissions() {

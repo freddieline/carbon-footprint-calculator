@@ -5,7 +5,7 @@ import { SearchResults } from '../components/SearchResults';
 import { SelectedMeals } from '../components/SelectedMeals';
 import type { Meal } from '../interfaces/Meal';
 import { Link } from 'react-router-dom';
-import { useEmissionsProvider } from '../providers/EmissionsProvider';
+import { useMealsProvider } from '../providers/MealsProvider';
 
 type InputProps = {
   selectedMeals: Meal[];
@@ -14,8 +14,8 @@ type InputProps = {
 function Meals() {
   const [filteredMeals, setFilteredMeals] = useState<Meal[]>([]);
   const { meals, error } = useGetMeals();
-  const { selectedMeals, incrementMealQuantity, addMeal, deleteMeal } =
-    useEmissionsProvider();
+  const { selectedMeals, addMeal, deleteMeal } =
+    useMealsProvider();
 
   const filterItems = (searchTerm: string) => {
     // we now use 'users' instead of 'apiUsers' to do the filtering
@@ -45,7 +45,7 @@ function Meals() {
         ></SearchResults>
         <SelectedMeals
           selectedMeals={selectedMeals}
-          incrementMealQuantity={incrementMealQuantity}
+          addMeal={addMeal}
           deleteMeal={deleteMeal}
         ></SelectedMeals>
         <Link to="/summary">Next</Link>

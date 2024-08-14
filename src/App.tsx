@@ -2,12 +2,12 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Summary from './routes/Summary';
 import Meals from './routes/Meals';
-import { EmissionsProvider } from './providers/EmissionsProvider';
+import { MealsProvider } from './providers/MealsProvider';
 
 function App() {
   return (
     <div className="App">
-      <EmissionsProvider>
+      <MealsProvider>
         <Router>
           <Routes>
             <Route path="/" element={<Meals />} />
@@ -15,7 +15,7 @@ function App() {
             <Route path="/summary" element={<Summary />} />
           </Routes>
         </Router>
-      </EmissionsProvider>
+      </MealsProvider>
     </div>
   );
 }
