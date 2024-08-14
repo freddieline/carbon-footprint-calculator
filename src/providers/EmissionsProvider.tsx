@@ -29,23 +29,9 @@ export const EmissionsProvider = ({
       selectedMeals &&
       selectedMeals.filter((item) => item.ID == meal.ID).length > 0
     ) {
-      incrementQuantity(meal);
+      incrementMealQuantity(meal);
     } else {
       setSelectedMeals((prevItems) => [...prevItems, meal]);
-    }
-  }
-
-  function incrementQuantity(meal: Meal) {
-    if (selectedMeals) {
-      const amendMeals = selectedMeals.map((item) => {
-        if (item.ID == meal.ID && item.Quantity) {
-          item.Quantity += 1;
-        } else if (item.ID == meal.ID) {
-          item.Quantity = 2;
-        }
-        return item;
-      });
-      setSelectedMeals(amendMeals);
     }
   }
 
