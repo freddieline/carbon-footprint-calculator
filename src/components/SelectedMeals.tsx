@@ -33,17 +33,17 @@ export const SelectedMeals: React.FC<InputProps> = ({
                 selectedMeals.map((meal: Meal) => {
                   return (
                     <tr className="search-result" key={meal.ID}>
-                      <td className='w-1/2 px-1 py-1'>
+                      <td className="w-1/2 px-1 py-1">
                         {meal.Quantity && meal.Quantity + ' x '} {meal.Meal}
                       </td>
-                      <td className='w-1/4 px-1 py-1'>
+                      <td className="w-1/4 px-1 py-1">
                         {meal.Quantity != undefined
                           ? Math.round(meal.Emissions * meal.Quantity * 100) /
                             100
                           : meal.Emissions}{' '}
                         kg CO2e{' '}
                       </td>
-                      <td className='w-1/5 px-1 py-1'>
+                      <td className="w-1/5 px-1 py-1">
                         <button
                           className="btn btn-sm btn-circle btn-outline"
                           style={{ marginRight: '12px' }}
