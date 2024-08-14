@@ -1,6 +1,5 @@
 import type { Meal } from '../interfaces/Meal';
 import './SearchResults.css';
-import './SearchResult.css';
 
 interface InputProps {
   filteredMeals: Meal[];

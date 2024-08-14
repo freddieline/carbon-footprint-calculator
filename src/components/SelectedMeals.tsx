@@ -28,22 +28,22 @@ export const SelectedMeals: React.FC<InputProps> = ({
             <p>
               <b>Meals footprint:</b>{' '}
             </p>
-            <div>
+            <table className="table-fixed min-w-full">
               {selectedMeals &&
                 selectedMeals.map((meal: Meal) => {
                   return (
-                    <div className="search-result" key={meal.ID}>
-                      <div>
+                    <tr className="search-result" key={meal.ID}>
+                      <td className='w-1/2 px-1 py-1'>
                         {meal.Quantity && meal.Quantity + ' x '} {meal.Meal}
-                      </div>
-                      <div>
+                      </td>
+                      <td className='w-1/4 px-1 py-1'>
                         {meal.Quantity != undefined
                           ? Math.round(meal.Emissions * meal.Quantity * 100) /
                             100
                           : meal.Emissions}{' '}
                         kg CO2e{' '}
-                      </div>
-                      <div>
+                      </td>
+                      <td className='w-1/5 px-1 py-1'>
                         <button
                           className="btn btn-sm btn-circle btn-outline"
                           style={{ marginRight: '12px' }}
@@ -84,11 +84,11 @@ export const SelectedMeals: React.FC<InputProps> = ({
                             />
                           </svg>
                         </button>
-                      </div>
-                    </div>
+                      </td>
+                    </tr>
                   );
                 })}
-            </div>
+            </table>
           </div>
         </>
       )}
