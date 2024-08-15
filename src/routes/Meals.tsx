@@ -48,7 +48,10 @@ function Meals() {
           addMeal={addMeal}
           deleteMeal={deleteMeal}
         ></SelectedMeals>
-        <Link to="/summary">Next</Link>
+        {selectedMeals.length != 0 && (
+        <Link to="/summary"><button className="btn btn-active btn-neutral mt-5">Continue<svg style={{marginLeft:"10px"}}xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+</svg></button></Link>)}
       </div>
     </div>
   );
