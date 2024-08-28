@@ -1060,7 +1060,6 @@ html {
   line-height: 1.5rem;
   border-radius: var(--rounded-btn, 0.5rem);
   border-width: 1px;
-  border-color: transparent;
   --tw-bg-opacity: 1;
   background-color: var(--fallback-b1, oklch(var(--b1) / var(--tw-bg-opacity)));
 }

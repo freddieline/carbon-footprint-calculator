@@ -1,5 +1,5 @@
 import React, { createContext, useState, ReactNode, useContext } from 'react';
-import type { Meal } from '../interfaces/Meal';
+import type { Meal } from '../types/Meal';
 
 type MealsContextType = {
   selectedMeals: Meal[];
@@ -8,25 +8,21 @@ type MealsContextType = {
   deleteMeal: (meal: Meal) => void;
 };
 
-const MealsContext = createContext<MealsContextType | undefined>(
-  undefined
-);
+const MealsContext = createContext<MealsContextType | undefined>(undefined);
 
 type MealsContextProviderProps = {
   children: ReactNode;
 };
-export const MealsProvider = ({
-  children,
-}: MealsContextProviderProps) => {
+export const MealsProvider = ({ children }: MealsContextProviderProps) => {
   const [selectedMeals, setSelectedMeals] = useState<Meal[]>([]);
 
   function addMeal(meal: Meal) {
-    setSelectedMeals(prevItems => {
-      const existingMeal = prevItems.find(item => item.ID === meal.ID);
+    setSelectedMeals((prevItems) => {
+      const existingMeal = prevItems.find((item) => item.ID === meal.ID);
       if (existingMeal) {
-        return prevItems.map(item => 
-          item.ID === meal.ID 
-            ? { ...item, Quantity: (item.Quantity || 1) + 1 } 
+        return prevItems.map((item) =>
+          item.ID === meal.ID
+            ? { ...item, Quantity: (item.Quantity || 1) + 1 }
             : item
         );
       } else {

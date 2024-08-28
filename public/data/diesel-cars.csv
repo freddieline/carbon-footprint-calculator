@@ -1,71 +1,71 @@
-No.,Car Model,City MPG,Highway MPG,Combined MPG
-1,Chevrolet Cruze Diesel,31,48,37
-2,BMW 328d,31,43,36
-3,BMW 540d xDrive,26,36,30
-4,Jaguar XE Diesel,32,42,36
-5,Jaguar XF Diesel,31,42,35
-6,Land Rover Range Rover Evoque Diesel,22,29,25
-7,Land Rover Discovery Sport Diesel,21,26,23
-8,Chevrolet Colorado Diesel,20,30,23
-9,GMC Canyon Diesel,20,30,23
-10,Jeep Grand Cherokee Diesel,22,30,25
-11,Ram 1500 EcoDiesel,22,32,26
-12,Ford F-150 Power Stroke Diesel,21,29,24
-13,Nissan Titan XD Diesel,15,21,18
-14,Chevrolet Silverado 1500 Diesel,23,33,27
-15,GMC Sierra 1500 Diesel,23,33,27
+ID,Model,City MPG,Highway MPG,MilesPerGallon
+1,Audi A3 TDI,31,43,36
+2,Audi A6 TDI,24,38,29
+3,Audi A8 TDI,24,36,28
+4,Audi Q7 TDI,19,25,21
+5,BMW 328d,31,43,36
+6,BMW 535d,26,37,30
+7,BMW 540d xDrive,26,36,30
+8,BMW X3 xDrive28d,27,34,30
+9,BMW X4 xDrive28d,25,34,29
+10,BMW X5 xDrive35d,23,29,26
+11,Cadillac Escalade Diesel,20,26,22
+12,Chevrolet Colorado Diesel,20,30,23
+13,Chevrolet Cruze Diesel,31,48,37
+14,Chevrolet Express Diesel,15,20,17
+15,Chevrolet Silverado 1500 Diesel,23,33,27
 16,Chevrolet Silverado 2500HD Diesel,15,20,17
-17,GMC Sierra 2500HD Diesel,15,20,17
-18,Ford Super Duty F-250 Diesel,15,22,18
-19,Ram 2500 Diesel,17,23,19
-20,Mercedes-Benz E-Class Diesel,22,33,26
-21,Mercedes-Benz GLC 300d,23,31,26
-22,Audi A3 TDI,31,43,36
-23,Audi A6 TDI,24,38,29
-24,Volkswagen Jetta TDI,30,42,34
-25,Volkswagen Golf TDI,31,43,36
-26,Volkswagen Passat TDI,30,42,34
-27,Volkswagen Beetle TDI,28,37,32
-28,Volkswagen Touareg TDI,20,29,23
-29,Mercedes-Benz GLK250 BlueTEC,24,33,28
-30,Mercedes-Benz ML350 BlueTEC,20,28,23
-31,BMW X5 xDrive35d,23,29,26
-32,Jeep Wrangler EcoDiesel,22,29,25
-33,Land Rover Range Rover Sport Diesel,22,28,24
-34,Land Rover Range Rover Diesel,22,29,25
-35,Audi Q7 TDI,19,25,21
-36,Porsche Cayenne Diesel,20,29,23
-37,BMW 535d,26,37,30
-38,Mercedes-Benz GLE 350d,20,27,23
-39,Audi A8 TDI,24,36,28
-40,Mercedes-Benz S-Class Diesel,21,30,25
-41,Jaguar F-Pace Diesel,26,33,29
-42,Jaguar F-Type Diesel,27,41,33
-43,Cadillac Escalade Diesel,20,26,22
-44,Chevrolet Suburban Diesel,20,26,22
-45,GMC Yukon Diesel,20,26,22
-46,Ford Expedition Diesel,17,24,19
-47,Jeep Gladiator EcoDiesel,22,28,24
-48,Toyota Land Cruiser Diesel,14,17,15
-49,Lexus LX 570 Diesel,14,20,16
-50,Nissan Patrol Diesel,13,17,15
-51,Mitsubishi Pajero Diesel,20,26,22
-52,Hyundai Santa Fe Diesel,22,29,25
-53,Kia Sorento Diesel,22,29,25
-54,BMW X3 xDrive28d,27,34,30
-55,BMW X4 xDrive28d,25,34,29
-56,Land Rover Defender Diesel,17,22,19
-57,Ford Ranger Diesel,21,29,24
-58,Mazda CX-5 Diesel,28,31,29
-59,Mercedes-Benz G-Class Diesel,17,21,18
-60,Mercedes-Benz Sprinter Diesel,19,23,21
-61,Ram ProMaster Diesel,21,28,24
-62,Nissan NV3500 Diesel,17,22,19
-63,Chevrolet Express Diesel,15,20,17
-64,GMC Savana Diesel,15,20,17
-65,Fiat Ducato Diesel,22,29,25
-66,Ford Transit Diesel,20,27,23
-67,Renault Trafic Diesel,30,40,34
-68,Volkswagen Caddy Diesel,36,43,39
-69,Peugeot Partner Diesel,34,42,38
-70,Citroen Berlingo Diesel,33,41,37
+17,Chevrolet Suburban Diesel,20,26,22
+18,Citroen Berlingo Diesel,33,41,37
+19,Fiat Ducato Diesel,22,29,25
+20,Ford Expedition Diesel,17,24,19
+21,Ford F-150 Power Stroke Diesel,21,29,24
+22,Ford Ranger Diesel,21,29,24
+23,Ford Super Duty F-250 Diesel,15,22,18
+24,Ford Transit Diesel,20,27,23
+25,GMC Canyon Diesel,20,30,23
+26,GMC Savana Diesel,15,20,17
+27,GMC Sierra 1500 Diesel,23,33,27
+28,GMC Sierra 2500HD Diesel,15,20,17
+29,GMC Yukon Diesel,20,26,22
+30,Hyundai Santa Fe Diesel,22,29,25
+31,Jaguar F-Pace Diesel,26,33,29
+32,Jaguar F-Type Diesel,27,41,33
+33,Jaguar XE Diesel,32,42,36
+34,Jaguar XF Diesel,31,42,35
+35,Jeep Gladiator EcoDiesel,22,28,24
+36,Jeep Grand Cherokee Diesel,22,30,25
+37,Jeep Wrangler EcoDiesel,22,29,25
+38,Kia Sorento Diesel,22,29,25
+39,Land Rover Defender Diesel,17,22,19
+40,Land Rover Discovery Sport Diesel,21,26,23
+41,Land Rover Range Rover Diesel,22,29,25
+42,Land Rover Range Rover Evoque Diesel,22,29,25
+43,Land Rover Range Rover Sport Diesel,22,28,24
+44,Lexus LX 570 Diesel,14,20,16
+45,Mazda CX-5 Diesel,28,31,29
+46,Mercedes-Benz E-Class Diesel,22,33,26
+47,Mercedes-Benz G-Class Diesel,17,21,18
+48,Mercedes-Benz GLK250 BlueTEC,24,33,28
+49,Mercedes-Benz GLE 350d,20,27,23
+50,Mercedes-Benz GLC 300d,23,31,26
+51,Mercedes-Benz ML350 BlueTEC,20,28,23
+52,Mercedes-Benz S-Class Diesel,21,30,25
+53,Mercedes-Benz Sprinter Diesel,19,23,21
+54,Mitsubishi Pajero Diesel,20,26,22
+55,Nissan NV3500 Diesel,17,22,19
+56,Nissan Patrol Diesel,13,17,15
+57,Nissan Titan XD Diesel,15,21,18
+58,Peugeot Partner Diesel,34,42,38
+59,Porsche Cayenne Diesel,20,29,23
+60,Ram 1500 EcoDiesel,22,32,26
+61,Ram 2500 Diesel,17,23,19
+62,Ram ProMaster Diesel,21,28,24
+63,Renault Trafic Diesel,30,40,34
+64,Toyota Land Cruiser Diesel,14,17,15
+65,Volkswagen Beetle TDI,28,37,32
+66,Volkswagen Caddy Diesel,36,43,39
+67,Volkswagen Golf TDI,31,43,36
+68,Volkswagen Jetta TDI,30,42,34
+69,Volkswagen Passat TDI,30,42,34
+70,Volkswagen Touareg TDI,20,29,23

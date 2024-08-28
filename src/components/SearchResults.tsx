@@ -1,4 +1,4 @@
-import type { Meal } from '../interfaces/Meal';
+import type { Meal } from '../types/Meal';
 import './SearchResults.css';
 
 interface InputProps {
@@ -6,6 +6,7 @@ interface InputProps {
   addMeal: (meal: Meal) => void;
   setFilteredMeals: any;
 }
+
 export const SearchResults: React.FC<InputProps> = ({
   filteredMeals,
   setFilteredMeals,

@@ -1,0 +1,51 @@
+ID,Model,MilesPerkWh
+1,Audi e-tron GT,3.2
+2,Audi e-tron Quattro,3.0
+3,Audi Q4 e-tron,3.5
+4,Audi RS e-tron GT,3.1
+5,BMW i3,3.7
+6,BMW i4,3.3
+7,BMW iX3,3.4
+8,Chevrolet Bolt EV,4.0
+9,Chevrolet Bolt EUV,3.6
+10,Chevrolet Volt (2019),3.7
+11,Chevrolet Spark EV,3.9
+12,Ford F-150 Lightning,2.4
+13,Ford Mustang Mach-E (Standard Range RWD),3.5
+14,Ford Mustang Mach-E (Extended Range),3.7
+15,Hyundai Ioniq Electric,4.2
+16,Hyundai Ioniq 5,3.8
+17,Hyundai Ioniq 6,4.0
+18,Hyundai Kona Electric,4.0
+19,Jaguar I-Pace,3.1
+20,Jaguar I-Pace S,3.1
+21,Jaguar I-Pace (Extended Range),3.2
+22,Kia Niro EV,3.9
+23,Kia Soul EV,3.8
+24,Kia EV6,3.9
+25,Lucid Air Dream Edition,4.6
+26,Lucid Air Touring,4.5
+27,Mercedes-Benz EQC,3.0
+28,Mercedes-Benz EQS,3.9
+29,Mercedes-Benz EQV,2.7
+30,Nissan Leaf e+ (62 kWh),3.9
+31,Nissan Leaf (40 kWh),4.2
+32,Nissan Ariya,3.8
+33,Polestar 2,3.0
+34,Polestar 2 Long Range,3.6
+35,Polestar 2 Performance,3.4
+36,Tesla Model 3 Standard Range Plus,4.5
+37,Tesla Model 3 Long Range,4.1
+38,Tesla Model Y Long Range,4.1
+39,Tesla Model Y Performance,3.8
+40,Tesla Model S Long Range,4.0
+41,Tesla Model S Plaid,3.7
+42,Tesla Model X Long Range,3.4
+43,Volkswagen ID.4,3.7
+44,Volkswagen ID.3,3.6
+45,Volkswagen e-Golf,3.5
+46,Porsche Taycan Cross Turismo,3.0
+47,Porsche Taycan Turbo,3.0
+48,Porsche Taycan 4S,3.2
+49,Rivian R1T,2.9
+50,Rivian R1S,2.9
